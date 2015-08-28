@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c6b029aba6d65d17406121bf551835a5",
+    "packages": [
+        {
+            "name": "vtk13/lib-sql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vtk13/lib-sql.git",
+                "reference": "4e56f585bfe99827269450607f447d7aa341b053"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vtk13/lib-sql/zipball/4e56f585bfe99827269450607f447d7aa341b053",
+                "reference": "4e56f585bfe99827269450607f447d7aa341b053",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vtk13\\LibSql\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-11-30 11:21:08"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "vtk13/lib-sql": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

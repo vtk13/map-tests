@@ -1,0 +1,6 @@
+{
+    "require": {
+        "vtk13/lib-sql": "dev-master",
+        "robmorgan/phinx": "*"
+    }
+}
