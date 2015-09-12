@@ -1,3 +1,5 @@
 /.idea/
 vendor/
 *.out
+*.beam
+/erlang/db/
